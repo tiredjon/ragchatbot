@@ -1,0 +1,3 @@
+{"question": "Какой размер комиссии указан в документе?", "language": "ru", "expected_answer_contains": ["комисси"], "expected_source_page": 1, "document_id": "REPLACE_WITH_REAL_DOCUMENT_ID", "category": "factual_lookup"}
+{"question": "Hujjatda qanday muddatlar ko'rsatilgan?", "language": "uz", "expected_answer_contains": ["muddat"], "expected_source_page": 1, "document_id": "REPLACE_WITH_REAL_DOCUMENT_ID", "category": "factual_lookup"}
+{"question": "Какая столица Франции?", "language": "ru", "expected_answer_contains": ["не содержит", "нет информации", "не найдено"], "expected_source_page": null, "document_id": "REPLACE_WITH_REAL_DOCUMENT_ID", "category": "out_of_scope_refusal"}

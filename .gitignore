@@ -1,0 +1,16 @@
+# Environment / secrets
+.env
+.env.local
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Eval results (local artifacts, not meant for version control)
+evals/results/
+
+# OS
+.DS_Store
