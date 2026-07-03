@@ -1,6 +1,6 @@
 # Multilingual RAG Agent (UZ/RU)
 
-RAG-агент, отвечающий на вопросы по загруженным документам (PDF/DOCX/TXT)
+RAG-агент без фронтенда, так как цель этого проекта была натренировать руку для разработки RAG-модели. Он отвечает на вопросы по загруженным документам (PDF/DOCX/TXT)
 на узбекском и русском языках. Построен с акцентом на production reliability:
 evals, observability, source attribution — а не только "работающий happy path".
 
@@ -30,7 +30,7 @@ Query  -> Language detection -> Vector search -> LLM Rerank -> Generation -> Ans
 - **Structured JSON logging** — каждый лог пригоден для парсинга,
   не текстовый print().
 
-## Известные ограничения (осознанные trade-offs для scope портфолио-проекта)
+## Известные ограничения
 
 - Rerank через LLM-scoring, а не dedicated cross-encoder модель
   (например `bge-reranker`) — проще в сетапе, но медленнее и дороже
